@@ -1,0 +1,178 @@
+/* Geral; */
+body, h1, h2, textarea{
+    margin: 0;
+    font-family: Roboto; }
+/* navbar inicio*/
+#navbar{ 
+    background-color: rgb(14, 97, 221);
+    color: #FFF;
+    height: 60px;
+    padding: 0 15px; }
+#navbar h2, #navbar ul, #navbar--list li {display: inline-block;}
+#navbar h2{ 
+    margin: 0px;
+    line-height: 60px;
+    margin-left: 70px; }
+#navbar img {
+    height: 60px;
+    position:absolute;}
+#navbar nav{ float:right}
+#navbar li{ margin: 0 10px;}
+#navbar li a {
+    text-decoration: none;
+    color: #FFF}
+#navbar li a:hover { border-bottom: 1px solid #FFF }
+/* navbar fim*/
+
+/* banner inicio*/
+#main-banner {
+    height: 80vh;
+    background-image: url("../img/fundo_inverno.png");
+    background-size: cover;}
+#banner-info {
+    margin-left: auto;
+    margin-right: auto; 
+    width: 40%;
+    text-align: center;
+    padding: 50px;}
+
+#banner-info p { 
+    color: #FFF;
+    background-color: rgb(14, 97, 221); 
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-weight: bold; 
+    max-width: 60%;
+    border-radius: 10px;}
+#banner-info img {
+    height:100px;
+    border-radius: 40%;
+    margin-top: 10px;}
+#banner-info h1 {color: rgb(14, 29, 226)}
+/*banner fim */
+
+/* about me inicio */
+#about-section{ 
+    height: 300px;
+    background-color: rgb(14, 97, 221);
+    color: #FFF}
+#about-section h2{height: 15px; 
+    margin: 20px ;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center ;
+    line-height: 65px}
+#about-section p{
+    margin-top: 35px ;
+    height: 15px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 30px;}
+/*about me fim */
+
+/*gostos começo*/
+#gostos-section { 
+    background-color: rgb(245, 240, 240);
+    height: 600px;
+    margin-left:auto;
+    margin-right: auto;
+    max-width: 80%;
+    margin-top: -100px;
+    border-radius: 10px;}
+#gostos-section h2{
+    margin-top: -100px;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center; }
+#gostos-section img {
+    height:150px;
+    border-radius: 15px;
+    border:2px solid blueviolet;}
+#gostos-section .conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
+.gostos-conteiner{
+    flex:1 1 1;
+    margin-top: 10px;
+    padding: 50px 25px; 
+    text-align: center;
+    border-radius: 10px;
+    border-left:  1px solid rgb(14, 3, 119);
+    border-right: 1px solid rgb(14, 3, 119);
+    border-top:  1px solid rgb(14, 3, 119);
+    border-bottom:  1px solid rgb(14, 3, 119)} 
+.gostos-conteiner h3{
+    color:blue;
+    font-weight: bold;}
+.gostos-conteiner h4 {
+    color:rgb(14, 97, 221);
+    font-weight: 18px;
+    margin-top: 30px;
+    margin-bottom: 15px;}
+.gostos-conteiner p { line-height: 25px;}
+/*gostos fim*/
+
+/* fotos começo */
+#fotos-section {
+    margin-top: 35px;}
+#fotos-section h2{ 
+    color:#FFF;
+    background-color: rgb(14, 29, 226);
+    font-weight: bold;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center;
+    padding: 10px;
+    font-weight: bold; 
+    max-width: 30%;
+    border-radius: 10px;}
+#fotos-section p{
+    color: black;
+    font-weight: 18px;
+    margin-bottom: 15px;
+    height: auto;
+    text-align: center;}
+ #fotos-section img{
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;}
+.fotos-conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center}
+.fotos-box {
+    flex: 1 1 250px;
+    margin-left: 50px ;
+    margin-right: 60px ;
+    height: 300px;
+    background-size: cover;
+    border-left: 2px solid rgb(247, 0, 255);
+    border-right: 4px solid rgb(255, 131, 245);
+    border-bottom: 4px solid rgb(255, 131, 245);
+    border-top: 2px solid rgb(247, 0, 255);}
+/* fotos fim */
+
+/* footer começo*/
+#footer { margin-top: 20vh;
+    padding: 0;
+    background-color: rgb(14, 97, 221);
+    color: #FFF;
+    height: 30vh;
+    padding: 0 15px;}
+#footer h2{text-align: center;
+    margin-left: auto;
+    margin-right: auto;}
+#footer img { height: 35px;  border-image-width: 35px;}
+#footer ul, #footer--list li {display: inline-block;}
+#footer ul{ float:right}
+#footer li a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #FFF; height: 35px;}
+#footer li a:hover { border-bottom: 1px solid #FFF }
+/* footer fim */
